@@ -17,4 +17,10 @@ public class HelloController {
 		return "こんにちは、世界！！！";
 		
 	}
+	
+	@GetMapping("/bye")
+	@ResponseBody
+	public String bye() {
+		return "さよなら！！";
+	}
 }
